@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(100, 155, 180);
+    color: azure;
+    font-family: 'Marvel', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-image: url(https://66.media.tumblr.com/61087d784adbe7f8352397cd3574b959/tumblr_inline_no7ftevQDx1tuqvvz_1280.png);
+    background-size: cover;
+    background-position: top;
+    height: 350px;
+}
+
+header h1 {
+    color: red;
+    font-size: 100px;
+    margin: 60px 5vw;
+    float: left;
+    letter-spacing: 15px;
+}
+
+header a {
+    text-decoration: none;
+    color: red;
+}
+
+#mainNav li {
+    display: inline-block;
+    color: red;
+    background-color: whitesmoke;
+    margin: 10px 10px;
+    padding: 7.5px;
+    border-radius: 7.5px;
+    letter-spacing: 2px;
+}
+
+#mainNav {
+    text-align: right;
+}
+
+#mainNav li:hover {
+    border-color: azure;
+    opacity: 80%;
+}
+
+#list1 {
+    float: left;
+    padding-right: 50px;
+}
+
+main {
+    margin: 10px 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: red;
+}
+
+footer {
+    background-image: linear-gradient(
+        to bottom, 
+        rgb(100, 155, 180), 
+        rgb(56, 51, 39)
+    );
+    clear: left;
+    padding: 140px 20px 40px;
+    /* background-color: rgb(56, 51, 39); */
+}
+
