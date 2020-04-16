@@ -10,12 +10,13 @@ header {
     background-size: cover;
     background-position: top;
     height: 350px;
+    margin-top: -16px;
 }
 
 header h1 {
     color: red;
     font-size: 100px;
-    margin: 60px 5vw;
+    margin: 45px 5vw;
     float: left;
     letter-spacing: 15px;
 }
@@ -53,19 +54,26 @@ main {
     margin: 10px 20px;
 }
 
+table {
+    background-color: rgb(141, 141, 141);
+    border: 2.5px solid black;
+}
+
+table td {
+    background-color: rgb(141, 141, 141);
+    border-bottom: 2.5px solid black;
+    border-right: 2.5px solid black;
+}
+
 footer a {
     text-decoration: none;
     color: red;
 }
 
 footer {
-    background-image: linear-gradient(
-        to bottom, 
-        rgb(100, 155, 180), 
-        rgb(56, 51, 39)
-    );
+    background-image: linear-gradient(to bottom,
+            rgb(100, 155, 180),
+            rgb(56, 51, 39) 65%);
     clear: left;
     padding: 140px 20px 40px;
-    /* background-color: rgb(56, 51, 39); */
 }
-
