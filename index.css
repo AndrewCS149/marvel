@@ -16,9 +16,19 @@ header {
 header h1 {
     color: red;
     font-size: 100px;
-    margin: 45px 5vw;
+    margin: 45px 5vw 5px;
     float: left;
     letter-spacing: 15px;
+}
+
+#quote {
+    clear: left;
+    color: red;
+    margin-left: 20%;
+    font-size: 1.2em;
+    font-weight: bolder;
+    letter-spacing: 2px;
+
 }
 
 header a {
